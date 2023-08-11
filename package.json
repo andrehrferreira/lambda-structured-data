@@ -1,0 +1,19 @@
+{
+    "name": "lambda-structured-data",
+    "version": "0.0.1",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "node test.js",
+        "zip": "yarn && rm lambda-structured-data.zip || true && zip -r lambda-structured-data.zip ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/andrehrferreira/lambda-structured-data"
+    },
+    "author": "Andre Ferreira",
+    "dependencies": {
+        "axios": "^0.19.2",
+        "html-metadata": "^1.7.1"
+    }
+}
